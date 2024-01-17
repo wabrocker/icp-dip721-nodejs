@@ -1,0 +1,40 @@
+{
+  "name": "dip721",
+  "version": "1.0.0",
+  "description": "![Group 5982](https://user-images.githubusercontent.com/73345016/144523337-fe7d6b49-d0a7-4621-852d-daeee344d4e2.png)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "build": "",
+    "start": "node --es-module-specifier-resolution=node src/node/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dfinity/agent": "^0.20.2",
+    "@dfinity/assets": "^0.20.2",
+    "@dfinity/candid": "^0.20.2",
+    "@dfinity/identity": "^0.20.2",
+    "@dfinity/identity-secp256k1": "^0.20.2",
+    "@dfinity/principal": "^0.20.2",
+    "image-thumbnail": "^1.0.15",
+    "isomorphic-fetch": "^3.0.0",
+    "mmmagic": "^0.5.3",
+    "prettier": "^3.2.3",
+    "sha256-file": "^1.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Psychedelic/DIP721.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Psychedelic/DIP721/issues"
+  },
+  "homepage": "https://github.com/Psychedelic/DIP721#readme"
+}
